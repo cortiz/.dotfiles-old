@@ -13,7 +13,8 @@ alias dk='docker'
 alias ccat='highlight'
 alias ncat='cat -n'
 alias nccat='highlight -n'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dfs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias pdfs='/usr/bin/git --git-dir=$HOME/.pdotfiles/ --work-tree=$HOME'
 ## Functions
 #
 
