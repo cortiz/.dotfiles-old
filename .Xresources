@@ -1,0 +1,6 @@
+#include "/home/cortiz/.cache/wal/colors.Xresources" 
+st.font: Inconsolata:pixelsize=16;FuraCode\ Nerd\ Font\ Mono:pixelsize=9;
+URxvt.font: xft:Inconsolata:pixelsize=16;FuraCode\ Nerd\ Font\ Mono:pixelsize=9;
+st.alfa: 250
+Xft.dpi: 96
+Xcursor.size: 16

@@ -1,0 +1,6 @@
+# Dark theme.
+rofi.theme: ~/.config/rofi/material.rasi
+#rofi.theme: ~/.config/rofi/cortiz.rasi
+# Dark theme.
+# rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+rofi.terminal: /sbin/alacritty
