@@ -231,6 +231,7 @@ exec_always --no-startup-id "killall -q compton; compton --config ~/.config/i3/c
 exec_always   dbus-update-activation-environment --systemd DISPLAY
 exec_always --no-startup-id /usr/bin/lxqt-policykit-agent 
 exec_always --no-startup-id setxkbmap -option compose:rctrl 
+exec_always --no-startup-id udiskie & 
 assign [class="Slack"] $ws4
 assign [class="Evolution"] $ws5
 for_window [class="Slack" floating] move container to workspace current
