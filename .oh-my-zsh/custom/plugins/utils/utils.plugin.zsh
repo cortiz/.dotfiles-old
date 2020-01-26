@@ -15,6 +15,9 @@ alias ncat='cat -n'
 alias nccat='highlight -n'
 alias dfs='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias pdfs='/usr/bin/git --git-dir=$HOME/.pdotfiles/ --work-tree=$HOME'
+alias kgp='k get pods'
+alias kdp='k describe pods'
+alias ktl='k logs -f '
 ## Functions
 #
 

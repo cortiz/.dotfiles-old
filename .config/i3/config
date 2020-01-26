@@ -220,7 +220,7 @@ exec  feh --bg-scale ~/.backgrounds/180835.jpg
 #NetworkManager
 exec --no-startup-id nm-applet --sm-disable
 #Email
-exec --no-startup-id /sbin/evolution
+exec --no-startup-id /usr/bin/thunderbird
 #slack
 exec --no-startup-id /sbin/slack
 #Screensaver

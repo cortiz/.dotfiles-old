@@ -111,3 +111,9 @@ export PATH="/home/cortiz/.local/bin:/home/cortiz/Applications/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+alias kcon="~/.ta_kube/bin/config.py"
+alias kman="~/.ta_kube/bin/manage.py"
+alias kdep="~/.ta_kube/bin/deploy.py"
+
+alias tk="kubectl --kubeconfig ~/.ta_kube/config"
+
